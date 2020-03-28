@@ -9,8 +9,8 @@ int main()
 	cout<<setw(40)<<'*'<<"\n\n";
 	cout<<"\tEnter Number of Chefs :";
 	cin>>n;
-	cout<<"\n\n\tEnter total number of ingredients a chef can claim :";
+	cout<<"\n\n\t Enter total number of ingredients a chef can claim :";
 	cin>>r;
 	resources=(n*r)-(n-1);
-	cout<<"\n\n\tTotal number of ingredients required >= "<<resources; 
+	cout<<"\n\n\t Total number of ingredients required >= "<<resources; 
 }
