@@ -14,14 +14,14 @@ int main()
 	if(n>0 && r>0)
 	{
 		resources=(n*r)-(n-1);
-        cout<<"\n\n\t Total number of ingredients required >= "<<resources;
+        	cout<<"\n\n\t Total number of ingredients required >= "<<resources;
     	}
     	else if(n<=0)
     	{
-    		cout<<"\n\n\t Resources must be greater than 0"; 
-   	}
+    		cout<<"\n\n\t Total number of Chefs must be greater than 0"; 
+    	}
     	else
     	{
-    		cout<<"\n\n\t Deadlock will not occur even if we have no resource."; 
+    		cout<<"\n\n\t Deadlock will not occur even if we have no ingredients."; 
     	}
 }
